@@ -1,0 +1,52 @@
+{
+  "id": "case-1792495084660-590955ad",
+  "title": "苏州",
+  "prompt": "苏州",
+  "treeVersion": 2,
+  "branchCount": 1,
+  "sourceCaseCount": 1,
+  "frames": [
+    {
+      "id": "frame-1",
+      "parentId": null,
+      "activeChildId": "frame-2",
+      "prompt": "苏州",
+      "concept": null,
+      "intent": null,
+      "instruction": "Layout: 统一横向景观分为左中右三个空间区域，由流动的水巷网络连接，确保每个类别都有清晰的点击焦点。\n\nSections:\n· [左侧区域 / 古典园林] — 描绘围墙内的假山与亭台，营造咫尺山川意境，视觉中心包含标题“古典园林”及子标签“假山池沼”“亭台楼阁”。Reference: Image 2, Image 4.\n· [中间区域 / 水乡古镇] — 展现河道与石桥民居，强调枕河而居场景，视觉中心包含标题“水乡古镇”及子标签“小桥流水”“枕河人家”。Reference: Image 4.\n· [右侧区域 / 古城风貌] — 呈现城市肌理与天际线，包含标志性塔影，视觉中心包含标题“古城风貌”及子标签“街巷肌理”“历史地标”。Reference: Image 1, Image 4.",
+      "granularity": null,
+      "xPct": null,
+      "yPct": null,
+      "regions": [],
+      "imageUrl": "images/a88355b917147e0ba0f69d377400951bbbf5509342dae64c51033c16459e24d0.jpg"
+    },
+    {
+      "id": "frame-2",
+      "parentId": "frame-1",
+      "activeChildId": "frame-3",
+      "prompt": "苏州, 古城风貌",
+      "concept": "古城风貌",
+      "intent": "了解古城风貌这一主题的整体介绍及其代表性要素",
+      "instruction": "Layout: 一幅连贯的古城鸟瞰长卷，右上角起于灰砖城墙环抱、宝塔高耸的古城全景并向远处天际线延展，由水巷与街巷脉络把下方几处标志性节点串联成一体。\n\nSections:\n· [右上·古城全景远景] — 灰砖城墙环抱、宝塔高耸、粉墙黛瓦屋顶连绵铺向天际线的整体格局，作为长卷的起点与背景。引线标注名称。Reference: Image 1。\n· [左上·古塔节点] — 高耸多檐的古塔自屋顶群中拔起，塔影沿街巷脉络与全景相接。引线标注名称与定位。Reference: Image 1。\n· [左下·古城墙与城门] — 厚重古城墙带城门洞（盘门水陆城门），临水而立，门洞内外水道贯通，脉络延向其他节点。引线标注名称与定位。Reference: Image 4。\n· [中下·临水古街巷] — 平江路临水铺展的古街巷肌理，石桥、河道与两岸店铺沿水延伸，接入街区脉络。引线标注名称与定位。Reference: Image 2。\n· [右下·水巷街区风貌] — 粉墙黛瓦沿狭窄水巷错落排布的街区风貌，水道蜿蜒回连全景。引线标注名称与定位。Reference: Image 3。",
+      "granularity": "section",
+      "xPct": 80,
+      "yPct": 10,
+      "regions": [],
+      "imageUrl": "images/2ff76fa1621589ad6f907e883d58707d9c5175ecbd2044d26e3a480866675120.jpg"
+    },
+    {
+      "id": "frame-3",
+      "parentId": "frame-2",
+      "activeChildId": null,
+      "prompt": "苏州, 古城风貌, 水巷街区",
+      "concept": "水巷街区",
+      "intent": "了解江南水乡的水巷街区特色、粉墙黛瓦建筑风貌及狭窄水巷的独特景观",
+      "instruction": "Layout: 俯瞰视角下一条蜿蜒水巷贯穿全幅，河道从画面上方曲折流向下方，两岸民居、石桥、小船沿水道自然分布，形成一片连续相通的水乡景观。\n\nSections:\n· [全幅背景 / 整体水巷] — 以俯瞰视角铺展一条狭窄碧绿的水巷，蜿蜒穿过粉墙黛瓦的街区，水道串联起两岸景物，奠定江南水乡宁静温润的整体气质。参考：Image 4、Image 1。\n· [河道两岸 / 左右沿河带] — 鳞次栉比的白墙黑瓦民居临水而建，立面倒映在碧绿河面，呈现枕水而居的沿河民居肌理。子标签：沿河民居立面、河埠头。参考：Image 2、Image 1。\n· [河道中段 / 画面中部] — 一座石拱桥横跨水面连通两岸，桥下一艘乌篷小船缓缓摇过碧绿河道。子标签：石拱桥、乌篷船。参考：Image 3。\n· [岸边点缀 / 水道沿线] — 垂柳与桃花零星点缀在白墙与河埠之间，柔化墙桥的硬线条，增添春日水乡的温润气息。子标签：垂柳、桃花。参考：none。",
+      "granularity": "section",
+      "xPct": 86,
+      "yPct": 41,
+      "regions": [],
+      "imageUrl": "images/2acb07d5f4e611ce8440425f5d8b1c46541fe96872f50f24392a6cb3d3b502ea.jpg"
+    }
+  ]
+}

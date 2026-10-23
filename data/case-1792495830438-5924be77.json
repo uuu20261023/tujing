@@ -1,0 +1,38 @@
+{
+  "id": "case-1792495830438-5924be77",
+  "title": "318自驾",
+  "prompt": "318自驾",
+  "treeVersion": 2,
+  "branchCount": 1,
+  "sourceCaseCount": 2,
+  "frames": [
+    {
+      "id": "frame-1",
+      "parentId": null,
+      "activeChildId": "frame-2",
+      "prompt": "318自驾",
+      "concept": null,
+      "intent": null,
+      "instruction": "Layout: 一条自东南向西北蜿蜒贯穿画面的高原公路长卷，成都平原起于右下角，公路一路攀升穿过雪山垭口与湖畔，最终抵达左上角的拉萨，四个节点如珠串般分布在这条天路之上。\n\nSections:\n· [右下角 · 起点] — 成都平原的沃野与城市天际线铺开为柔和的绿色起点，公路自此向画面纵深延伸、开始爬升。标注\"天府起点·成都\"。Reference: none。\n· [中下段 · 首道垭口] — 公路攀上折多山的盘旋弯道，顶部是覆雪的垭口、经幡与高原荒原，气势险峻。标注\"折多山垭口\"。Reference: Image 3。\n· [中段 · 湖畔] — 公路沿着一泓碧蓝雪域湖水蜿蜒而过，远处雪峰倒映水面，静谧辽阔。标注\"然乌湖\"。Reference: Image 4。\n· [左上角 · 终点] — 公路尽头是高原之上的拉萨，远景布达拉宫般的轮廓与雪山天际，旅程在此收束。标注\"终点·拉萨\"。Reference: Image 1。",
+      "granularity": null,
+      "xPct": null,
+      "yPct": null,
+      "regions": [],
+      "imageUrl": "images/d78f830711cd40458455ac33ab10b7112ff87315357456ba77d3ffe4a1422c3e.jpg"
+    },
+    {
+      "id": "frame-2",
+      "parentId": "frame-1",
+      "activeChildId": null,
+      "prompt": "318自驾, 折多山垭口",
+      "concept": "折多山垭口",
+      "intent": "了解折多山垭口的地理位置、海拔高度及在该路线上的重要性",
+      "instruction": "Layout: 一幅连贯的高山垭口全景——前景石碑居中，经幡从中景玛尼堆向四周放射状拉开，之字形盘山公路从中景蜿蜒延伸至覆雪群峰的远景，所有元素沿山势上下相连为一体。\n\nSections:\n· [前景中央] — 海拔4298米的垭口石碑矗立于画面正中偏下，石面标注海拔数字与\"康巴第一关\"字样，作为进入藏区第一座高山垭口的入口节点。参考：Image 3。\n· [中景左右放射] — 彩色经幡从中央玛尼堆向四周层层拉开，覆盖石碑两侧，经幡随风铺满中景空间。参考：Image 1。\n· [中景蜿蜒而上] — 318川藏线标志性的之字形盘山公路从石碑后方向上盘旋，连接前景与远山，弯道层叠。参考：Image 2。\n· [远景顶部] — 覆雪的群峰横列于画面上方天际，西望折多山雪色主峰收束整条路线。参考：Image 4。",
+      "granularity": "item",
+      "xPct": 55,
+      "yPct": 52,
+      "regions": [],
+      "imageUrl": "images/2478f06f02a27d07beff2663d71e83aa3e0644ad0c8ee2a494d1c5f973bb840c.jpg"
+    }
+  ]
+}

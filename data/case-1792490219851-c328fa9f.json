@@ -1,0 +1,121 @@
+{
+  "id": "case-1792490219851-c328fa9f",
+  "title": "北京旅行",
+  "prompt": "北京旅行",
+  "treeVersion": 2,
+  "branchCount": 2,
+  "sourceCaseCount": 2,
+  "frames": [
+    {
+      "id": "frame-1",
+      "parentId": null,
+      "activeChildId": "frame-2",
+      "prompt": "北京旅行",
+      "concept": null,
+      "intent": null,
+      "instruction": "Layout: 顶部横贯的古都气象标题带，下方以中轴线串联四处地标的四宫格布局，整体由一条贯穿画面的中轴线将各景点自然连缀。\n\nSections:\n· [顶部横带 / 古都气象] — 绘制北京古都的宏观全景，宫墙、城楼与远山在晨霭中铺陈，奠定八百年古都的庄严基调。Reference: Image 1。\n· [中部左上 / 故宫] — 俯瞰明清皇家宫殿的金瓦红墙层层院落，太和殿居中轴，气势恢宏。Reference: Image 2。\n· [中部右上 / 八达岭长城] — 巍峨城墙沿山脊蜿蜒绵延，敌楼起伏，没入远方云雾。Reference: Image 3。\n· [中部左下 / 天安门广场] — 城市中轴线上的庄严核心，城楼正立，宽阔广场铺展其前。Reference: Image 4。\n· [中部右下 / 颐和园] — 秀美皇家园林，昆明湖碧波、长廊曲折与万寿山楼阁相映成趣。Reference: none。",
+      "granularity": null,
+      "xPct": null,
+      "yPct": null,
+      "regions": [
+        {
+          "concept": "故宫",
+          "intent": "了解故宫的太和殿与宫墙等著名景点",
+          "granularity": "section",
+          "bbox": {
+            "x1": 1,
+            "y1": 26,
+            "x2": 48,
+            "y2": 61
+          }
+        },
+        {
+          "concept": "八达岭长城",
+          "intent": "探索八达岭长城的雄伟风光与敌楼",
+          "granularity": "section",
+          "bbox": {
+            "x1": 52,
+            "y1": 26,
+            "x2": 99,
+            "y2": 61
+          }
+        },
+        {
+          "concept": "天安门广场",
+          "intent": "了解天安门城楼及广场的布局与景观",
+          "granularity": "section",
+          "bbox": {
+            "x1": 1,
+            "y1": 61,
+            "x2": 48,
+            "y2": 97
+          }
+        },
+        {
+          "concept": "颐和园",
+          "intent": "欣赏颐和园昆明湖与长廊的皇家园林美景",
+          "granularity": "section",
+          "bbox": {
+            "x1": 52,
+            "y1": 61,
+            "x2": 99,
+            "y2": 97
+          }
+        }
+      ],
+      "imageUrl": "images/7862999a4d2d16d5e65612ccd724d8a318293e65b57d3153524d1cf18d8ff504.jpg"
+    },
+    {
+      "id": "frame-2",
+      "parentId": "frame-1",
+      "activeChildId": null,
+      "prompt": "北京旅行, 八达岭长城",
+      "concept": "八达岭长城",
+      "intent": "探索八达岭长城的雄伟风光与敌楼",
+      "instruction": "Layout: 全幅连续山景长卷，城墙如巨龙自右下关城向左上远山蜿蜒贯穿画面，沿墙脊自下而上依次串起敌楼、垛口细部与北八楼制高点，各景观以细线引出短标注，连为一体而非分格。\n\nSections:\n· [全景底图 / 整幅背景] — 军都山层峦叠翠的开阔全景，城墙如巨龙沿山脊起伏，从右下角关城向左上方远山伸展，奠定雄伟完整的明长城精华基调。Reference: Image 1 and Image 4.\n· [敌楼群 / 中景沿墙脊] — 几座依山矗立的方形砖石敌楼，楼身开瞭望窗、下接登城石阶，细线引出短标注\"敌楼\"\"登城石阶\"。Reference: Image 2.\n· [墙顶垛口 / 近景前侧] — 墙顶一段放大的锯齿状垛口与射孔砖面细节，细线引出短标注\"垛口\"\"射孔\"。Reference: Image 3.\n· [北八楼制高点 / 左上远端] — 山脊最高处矗立的敌楼与\"不到长城非好汉\"石碑，作为视线终点，细线引出短标注\"北八楼\"\"好汉碑\"。Reference: Image 4.",
+      "granularity": "section",
+      "xPct": 76,
+      "yPct": 44,
+      "regions": [
+        {
+          "concept": "北京旅行",
+          "intent": "Explore the main subject of this image",
+          "granularity": "section",
+          "bbox": {
+            "x1": 20,
+            "y1": 20,
+            "x2": 80,
+            "y2": 80
+          }
+        }
+      ],
+      "imageUrl": "images/e23cd51bc32e9e5d5467615f7d6ff768e72ef0a568bad43897743cca5b1de651.jpg"
+    },
+    {
+      "id": "frame-3",
+      "parentId": "frame-1",
+      "activeChildId": null,
+      "prompt": "北京旅行, 故宫",
+      "concept": "故宫",
+      "intent": "了解故宫的太和殿与宫墙等著名景点",
+      "instruction": "Layout: 俯瞰式鸟瞰全景，紫禁城中轴线自画面下方南端笔直贯穿至上方北端，三大殿金顶居画面中央核心，午门锚定底部入口，红色宫墙与四角角楼围合整个画面边缘。\n\nSections:\n· [画面下端 / 南端入口] 午门 — 绘制中轴线最南端的朱红城台与五凤楼正门，作为宫城入口向内延伸引出中轴主路。Reference: Image 4。\n· [画面中央核心] 太和殿与三大殿 — 金黄琉璃瓦顶的宏伟大殿群沿中轴线依次排开，红墙白阶衬托，为全景视觉焦点。Reference: Image 1、Image 3。\n· [画面四周边缘 / 宫城轮廓] 宫墙与角楼 — 高耸的朱红宫墙方正围合整座宫城，四角各立一座精巧角楼，勾勒紫禁城对称外廓。Reference: Image 2。\n· [贯穿全图 / 纵向中轴] 中轴对称格局 — 一条笔直的中轴线由南至北串联午门与三大殿，两侧木结构建筑群对称铺陈，强调整体轴线秩序。Reference: Image 3。",
+      "granularity": "section",
+      "xPct": 25,
+      "yPct": 44,
+      "regions": [
+        {
+          "concept": "北京旅行",
+          "intent": "Explore the main subject of this image",
+          "granularity": "section",
+          "bbox": {
+            "x1": 20,
+            "y1": 20,
+            "x2": 80,
+            "y2": 80
+          }
+        }
+      ],
+      "imageUrl": "images/68e2bbf2bdbf0c419fca7df2906ee693d7cd9691dbff0ca4f704f46a5c1aeaf5.jpg"
+    }
+  ]
+}

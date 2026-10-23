@@ -1,0 +1,38 @@
+{
+  "id": "case-1792425904301-2b70256c",
+  "title": "中国科学技术大学软件学院",
+  "prompt": "中国科学技术大学软件学院",
+  "treeVersion": 2,
+  "branchCount": 1,
+  "sourceCaseCount": 1,
+  "frames": [
+    {
+      "id": "frame-1",
+      "parentId": null,
+      "activeChildId": "frame-2",
+      "prompt": "中国科学技术大学软件学院",
+      "concept": null,
+      "intent": null,
+      "instruction": "中国科学技术大学软件学院呈现合肥与苏州双基地办学格局，其中苏州独墅湖校区凭借现代化的园区建筑与优越的研究生住宿条件成为视觉核心。入口页面提供苏州独墅湖校区、合肥南区基地、校园生活园区三个平行入口，分别对应学院的主要办学地点与核心生活设施。参考照片优先选用独墅湖校园全景与若水宿舍外观，以展现其区别于传统高校的现代科教风貌。",
+      "granularity": null,
+      "xPct": null,
+      "yPct": null,
+      "regions": [],
+      "imageUrl": "images/0a13b380a7e9c21e8532a635d10b02c0da683d9735f9acc59cc9f3bad24e944c.jpg"
+    },
+    {
+      "id": "frame-2",
+      "parentId": "frame-1",
+      "activeChildId": null,
+      "prompt": "中国科学技术大学软件学院, 苏州独墅湖校区",
+      "concept": "苏州独墅湖校区",
+      "intent": "了解该校区的建设定位、研究生培养特色与科研环境",
+      "instruction": "聚焦原图中独墅湖湖畔的建筑群落，绘制一幅带引线标注的外视功能图，展示校区作为研究生培养基地的空间布局。重点标注专业实验室、产教联合培养中心及开放式学习空间，体现科研与实习并重的建设定位。保留水域环境与周边图书馆的视觉连接，呼应安静专注的科研氛围。",
+      "granularity": "section",
+      "xPct": 35,
+      "yPct": 21,
+      "regions": [],
+      "imageUrl": "images/bee893f1b7f2c2381a48dac3e496e7170524a6692e185fb0228b2a8199a18b84.jpg"
+    }
+  ]
+}

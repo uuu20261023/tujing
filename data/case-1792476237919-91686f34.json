@@ -1,0 +1,117 @@
+{
+  "id": "case-1792476237919-91686f34",
+  "title": "合肥旅游",
+  "prompt": "合肥旅游",
+  "treeVersion": 2,
+  "branchCount": 1,
+  "sourceCaseCount": 1,
+  "frames": [
+    {
+      "id": "frame-1",
+      "parentId": null,
+      "activeChildId": "frame-2",
+      "prompt": "合肥旅游",
+      "concept": null,
+      "intent": null,
+      "instruction": "Layout: 2x2 网格布局，四个等大区域分别承载独立导览选项，背景隐约贯穿水脉与城市轮廓以呼应视觉主线。\n\nSections:\n· [左上区域：巢湖风景] — 展现开阔湖面与自然湿地景观，水波质感清晰，色调清新自然，包含标题“巢湖风景”及子标签“湖面风光”、“湿地生态”。Reference: Image 4.\n· [右上区域：包公园景] — 描绘古典园林与历史建筑，突出祠宇结构与庄重氛围，绿意环绕，包含标题“包公园景”及子标签“包公祠”、“清风阁”。Reference: Image 3.\n· [左下区域：三河古镇] — 呈现水乡古镇街巷与徽派民居，小桥流水，青砖黛瓦，生活气息浓郁，包含标题“三河古镇”及子标签“古街巷”、“徽派建筑”。Reference: Image 2.\n· [右下区域：城市全景] — 展示现代都市天际线与高楼群，玻璃幕墙反光，体现繁华与现代感，包含标题“城市全景”及子标签“政务区天际线”、“现代化地标”。Reference: Image 1.",
+      "granularity": null,
+      "xPct": null,
+      "yPct": null,
+      "regions": [
+        {
+          "concept": "巢湖风景",
+          "intent": "了解巢湖的湖面风光与湿地生态",
+          "granularity": "section",
+          "bbox": {
+            "x1": 4,
+            "y1": 4,
+            "x2": 49,
+            "y2": 49
+          }
+        },
+        {
+          "concept": "包公园景",
+          "intent": "探索包公祠和清风阁等历史文化景点",
+          "granularity": "section",
+          "bbox": {
+            "x1": 51,
+            "y1": 4,
+            "x2": 96,
+            "y2": 51
+          }
+        },
+        {
+          "concept": "三河古镇",
+          "intent": "体验徽派建筑与古街巷的历史风情",
+          "granularity": "section",
+          "bbox": {
+            "x1": 4,
+            "y1": 51,
+            "x2": 49,
+            "y2": 96
+          }
+        },
+        {
+          "concept": "城市全景",
+          "intent": "欣赏政务区天际线与现代地标建筑",
+          "granularity": "section",
+          "bbox": {
+            "x1": 51,
+            "y1": 51,
+            "x2": 96,
+            "y2": 96
+          }
+        }
+      ],
+      "imageUrl": "images/7f791b534714378f30d3384e7ad321d73ec982e019ac033fdab481be00c2a609.jpg"
+    },
+    {
+      "id": "frame-2",
+      "parentId": "frame-1",
+      "activeChildId": null,
+      "prompt": "合肥旅游, 三河古镇",
+      "concept": "三河古镇",
+      "intent": "体验徽派建筑与古街巷的历史风情",
+      "instruction": "Layout: 中央等距视角建筑群落沐浴在暖色调光线中，自上而下分为居住区、巷弄通道与水道桥梁三个视觉层次。\n\nSections:\n· [上部居住区] — 绘制密集错落的徽派民居群落，重点表现白色马头墙的高低层次与墙面斑驳质感。Reference: Image 1 [and Image 4]\n· [中部巷弄] — 刻画狭窄幽深的石板巷道，两侧高墙夹峙，强调空间的纵深感与阴影细节。Reference: Image 2\n· [下部水道与古桥] — 展现横跨水面的石拱桥与沿岸老街路面，体现水运街道交汇处的石材纹理与水面光影。Reference: Image 3",
+      "granularity": "section",
+      "xPct": 27,
+      "yPct": 74,
+      "regions": [
+        {
+          "concept": "居住区与徽派建筑",
+          "intent": "了解三河古镇的徽派民居与马头墙建筑特色",
+          "granularity": "section",
+          "bbox": {
+            "x1": 3,
+            "y1": 3,
+            "x2": 97,
+            "y2": 37
+          }
+        },
+        {
+          "concept": "古镇巷弄",
+          "intent": "探索古镇独特的石板巷与一人巷道景观",
+          "granularity": "section",
+          "bbox": {
+            "x1": 3,
+            "y1": 35,
+            "x2": 97,
+            "y2": 65
+          }
+        },
+        {
+          "concept": "水道与桥梁",
+          "intent": "欣赏古镇的石拱古桥与沿河老街风光",
+          "granularity": "section",
+          "bbox": {
+            "x1": 3,
+            "y1": 61,
+            "x2": 97,
+            "y2": 98
+          }
+        }
+      ],
+      "imageUrl": "images/de82a97348ca2da04797da5e4e0fdac80eabb452c2fc30a8b1a325153dec6592.jpg"
+    }
+  ]
+}

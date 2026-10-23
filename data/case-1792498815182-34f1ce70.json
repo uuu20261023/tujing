@@ -1,0 +1,52 @@
+{
+  "id": "case-1792498815182-34f1ce70",
+  "title": "郑州旅游",
+  "prompt": "郑州旅游",
+  "treeVersion": 2,
+  "branchCount": 1,
+  "sourceCaseCount": 1,
+  "frames": [
+    {
+      "id": "frame-1",
+      "parentId": null,
+      "activeChildId": "frame-2",
+      "prompt": "郑州旅游",
+      "concept": null,
+      "intent": null,
+      "instruction": "Layout: 全幅中原地景俯瞰，黄河自上方横贯，三处地标沿河岸与城区分布为可点击节点，右下角一方静谧的文脉入口。\n\nSections:\n· [顶部横带 / 黄河之滨] — 黄河壮阔奔流横贯画面上方，水岸开阔、大河气象苍茫，作为串连全景的主脉。Reference: Image 4。\n· [左侧 / 嵩山少林] — 群山脚下的少林古刹，殿宇依山而立，古意庄重，顺河岸延伸向西。Reference: Image 2。\n· [中部 / 郑州市区] — 现代都市天际线铺展于河南岸，高楼林立与中原腹地相融，呈\"天下之中\"的城市气象。Reference: Image 1。\n· [中部地标 / 二七纪念塔] — 市中心一座双塔式纪念塔立于城区节点，见证郑州现代记忆，与周围楼群相映。Reference: Image 3。\n· [右下角 / 河南博物院] — 一方沉静的文脉入口，中原千年器物与古城意象交织，与主景以一条暗线相连。Reference: none。",
+      "granularity": null,
+      "xPct": null,
+      "yPct": null,
+      "regions": [],
+      "imageUrl": "images/c0f8a6a54b0d163c6f09cfdc3d4de3ab5c710addf795f24a0acb60b46c4f9546.jpg"
+    },
+    {
+      "id": "frame-2",
+      "parentId": "frame-1",
+      "activeChildId": "frame-3",
+      "prompt": "郑州旅游, 嵩山少林 少林寺",
+      "concept": "嵩山少林 少林寺",
+      "intent": "了解少林寺景区的历史背景、武术文化和代表性景点",
+      "instruction": "Layout: 顶部横贯苍翠嵩山群峦间的少林寺景区全景,下方沿一条蜿蜒山道串联三处代表区域,构成一幅连续的山门—塔林—演武场的禅武游览画卷。\n\nSections:\n· [顶部横幅 / 全景远眺] — 绘出嵩山层叠苍翠的山峦环抱中的少林寺,红墙灰瓦的殿宇群坐落山脚,远山云雾缭绕,一条山道自画面下延伸出来。Reference: Image 4。\n· [左下 / 常住院山门] — 古朴庄严的红墙山门立于山道起点,匾额高悬,石阶古树映衬,透出千年禅宗古刹的沉静气息。Reference: Image 1。\n· [中下 / 塔林] — 山道旁一片历代高僧墓塔林立的塔林,大小古塔错落于林间草地,砖石斑驳,营造肃穆悠远的历史厚重感。Reference: Image 2。\n· [右下 / 练功场] — 开阔的演武练功场上,武僧列队演练少林功夫,拳脚招式刚劲有力,展现尚武的武术文化活力。Reference: Image 3。",
+      "granularity": "item",
+      "xPct": 18,
+      "yPct": 26,
+      "regions": [],
+      "imageUrl": "images/e8471dcd729bd9a35febce694f3e95c58e11dccc70ccea62e4cd773a29585bb5.jpg"
+    },
+    {
+      "id": "frame-3",
+      "parentId": "frame-2",
+      "activeChildId": null,
+      "prompt": "郑州旅游, 嵩山少林 少林寺, 3 练功场",
+      "concept": "3 练功场",
+      "intent": "了解少林寺武僧练功及演武活动的历史与场景",
+      "instruction": "聚焦地图右下角那片红墙环抱的露天演武场，身着橙黄僧衣的武僧正列阵操练。以这一场景为中心展开一组武僧练功与演武的画面：成排站桩扎马步的基本功训练、持棍弄枪的器械操演，以及队形齐整的集体拳法演武表演。保留夯土地面、台阶与背后殿宇的场地特征，让读者看清少林功夫从日常苦练到对外演武的真实场景。",
+      "granularity": "item",
+      "xPct": 87,
+      "yPct": 52,
+      "regions": [],
+      "imageUrl": "images/f8799c9b92ac4e533205d06a2408893d071d6630d680577cf0f8daf9930a5d43.jpg"
+    }
+  ]
+}

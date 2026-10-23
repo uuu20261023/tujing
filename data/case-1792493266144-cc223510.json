@@ -1,0 +1,24 @@
+{
+  "id": "case-1792493266144-cc223510",
+  "title": "深圳旅游攻略",
+  "prompt": "深圳旅游攻略",
+  "treeVersion": 2,
+  "branchCount": 1,
+  "sourceCaseCount": 3,
+  "frames": [
+    {
+      "id": "frame-1",
+      "parentId": null,
+      "activeChildId": null,
+      "prompt": "深圳旅游攻略",
+      "concept": null,
+      "intent": null,
+      "instruction": "Layout: 横向三等分网格布局，左中右三个独立视觉区域分别呈现都市夜景、海岸风光与乐园体验，区域间以细微暗色分隔。\n\nSections:\n· [左侧区域：都市夜景] — 绘制市民中心建筑群在夜幕下的璀璨灯光，视觉主体为摩天楼群与霓虹光影，涵盖市民中心与灯光秀两大要素。Reference: Image 2。\n· [中间区域：海岸风光] — 绘制盐田海滨栈道的玻璃海景观，视觉主体为蜿蜒栈道与自然海岸线，涵盖盐田栈道与玻璃海两大要素。Reference: Image 1。\n· [右侧区域：游乐文化] — 绘制世界之窗的经典微缩景观与游乐设施，视觉主体为地标建筑与欢乐氛围，涵盖世界之窗与经典地标两大要素。Reference: Image 4。",
+      "granularity": null,
+      "xPct": null,
+      "yPct": null,
+      "regions": [],
+      "imageUrl": "images/195703f3b1500cbd211a228ab84a9414e948722ca5060bb179e3591e21409581.jpg"
+    }
+  ]
+}

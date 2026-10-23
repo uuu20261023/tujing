@@ -1,0 +1,38 @@
+{
+  "id": "case-1792481285207-87d94202",
+  "title": "中科大高新校区",
+  "prompt": "中科大高新校区",
+  "treeVersion": 2,
+  "branchCount": 1,
+  "sourceCaseCount": 1,
+  "frames": [
+    {
+      "id": "frame-1",
+      "parentId": null,
+      "activeChildId": "frame-2",
+      "prompt": "中科大高新校区",
+      "concept": null,
+      "intent": null,
+      "instruction": "Layout: 横向三等分视觉网格，左侧呈现校区大门，中间聚焦图书馆建筑，右侧展示校园全景风貌。\n\nSections:\n· [左侧入口区] — 绘制现代简约风格的校区主大门建筑，体现庄重入口形象，画面呈现标题“校区大门”与副标“入口形象”。Reference: Image 4.\n· [中间核心区] — 绘制具有科研氛围的图书馆主体建筑，展现核心学术空间特征，画面呈现标题“图书馆”与副标“核心学术空间”。Reference: Image 2.\n· [右侧全景区] — 绘制开阔的校园建筑群俯瞰视角，呈现整体环境风貌与空间布局，画面呈现标题“校园全景”与副标“整体环境风貌”。Reference: Image 1.",
+      "granularity": null,
+      "xPct": null,
+      "yPct": null,
+      "regions": [],
+      "imageUrl": "images/75a14571f9d7003d3d609ef0e6256259e64815c5fceae5f8418ae5016171a490.jpg"
+    },
+    {
+      "id": "frame-2",
+      "parentId": "frame-1",
+      "activeChildId": null,
+      "prompt": "中科大高新校区, 中科大高新校区室内实景",
+      "concept": "中科大高新校区室内实景",
+      "intent": "查看中科大高新校区室内环境与自习区设施",
+      "instruction": "Layout: 全屏室内透视构图，前景聚焦单个学习卡座，背景延伸展示图书馆纵深空间。\n\nSections:\n· [前景核心卡座 / 画面中下部] — 视觉主体为带有蓝色隔板的现代化书桌，桌面清晰呈现硬件细节。包含指向电源插座与护眼阅读灯的引注线。Reference: Image 1 和 Image 3\n· [背景图书馆环境 / 画面上部及两侧] — 视觉背景为整齐排列的座位与明亮柔和的照明，体现安静有序氛围。包含指向储物格与人体工学座椅的引注线。Reference: Image 2",
+      "granularity": "item",
+      "xPct": 95,
+      "yPct": 41,
+      "regions": [],
+      "imageUrl": "images/5314a5c1ba00ffd7a6fe09fcfbf7ab800ab4afb1951cffa68e0301bc81b28a1f.jpg"
+    }
+  ]
+}

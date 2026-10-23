@@ -1,0 +1,66 @@
+{
+  "id": "case-1792489810946-db1f34f6",
+  "title": "中国科学技术大学新生入学指南",
+  "prompt": "中国科学技术大学新生入学指南",
+  "treeVersion": 2,
+  "branchCount": 2,
+  "sourceCaseCount": 6,
+  "frames": [
+    {
+      "id": "frame-1",
+      "parentId": null,
+      "activeChildId": "frame-2",
+      "prompt": "中国科学技术大学新生入学指南",
+      "concept": null,
+      "intent": null,
+      "instruction": "Layout: 顶部横贯的校门迎宾带作为视觉锚点，中部大幅东校区主校园鸟瞰铺陈，底部为新生报到现场的活动条带，三层自上而下由\"远望\"渐入\"落地\"。\n\nSections:\n· [顶部横带 / 校门迎宾] — 绘制标志性校门作为入口第一印象，大门正立面居中横贯顶部，道路从门洞向画面内延伸引导视线深入。Reference: Image 2。\n· [中部主体 / 东校区主校园] — 大幅铺陈东校区校园鸟瞰全景，建筑群、林荫道与绿地舒展连成一片，道路自顶部校门自然汇入，构成校园\"远看是什么\"的整体骨架。Reference: Image 1 and Image 3。\n· [底部横带 / 新生报到现场] — 绘制新生报到的现场场景，报到台、人群与行李聚集的活动氛围，位于画面下缘，道路尽头自然落到报到点。Reference: Image 4。",
+      "granularity": null,
+      "xPct": null,
+      "yPct": null,
+      "regions": [],
+      "imageUrl": "images/a31bd56edef56dcdacc702adc01f06f949e18bc869e491cb21c81835f28d38a8.jpg"
+    },
+    {
+      "id": "frame-2",
+      "parentId": "frame-1",
+      "activeChildId": "frame-3",
+      "prompt": "中国科学技术大学新生入学指南, 新生报到",
+      "concept": "新生报到",
+      "intent": "了解新生报到流程、报到台设置及行李安置等迎新服务详情",
+      "instruction": "Layout: 一条从左侧东区大门入场、沿蓝色遮阳棚帐篷队列向右延展、最终通向右下宿舍服务点的流线式迎新场景，指引线贯穿全程。\n\nSections:\n· [左侧入场口] — 画中科大东区大门，红色\"欢迎新同学\"条幅横跨门楣，手拉行李箱、背背包的新生从此处入场汇入流线。Reference: Image 3。\n· [中部报到台队列] — 蓝色遮阳棚下一字排开的报到处帐篷，按院系分设的报到台前新生依次登记与领取资料。Reference: Image 2 and Image 1。\n· [报到台旁咨询区] — 穿红马甲的志愿者站在报到台之间引导新生、解答咨询，形成温暖的接待节点。Reference: Image 1。\n· [右下宿舍服务点] — 行李寄存与搬运场景，志愿者协助新生将行李箱运往宿舍，收束整条流线。Reference: Image 4。",
+      "granularity": "section",
+      "xPct": 14,
+      "yPct": 69,
+      "regions": [],
+      "imageUrl": "images/c32d90486f37dceec79c398714e671a464769d8ed0e9ad676d5a2e46bc984800.jpg"
+    },
+    {
+      "id": "frame-3",
+      "parentId": "frame-2",
+      "activeChildId": null,
+      "prompt": "中国科学技术大学新生入学指南, 新生报到, 宿舍服务点",
+      "concept": "宿舍服务点",
+      "intent": "了解宿舍服务点提供的行李寄存与搬运服务详情",
+      "instruction": "Layout: 中央一座蓝顶\"宿舍服务点\"帐篷为枢纽，左侧展开行李寄存场景，右下沿虚线箭头延伸出搬运路径直通画面右端的宿舍入口，三区由帐篷与箭头线自然串联。\n\nSections:\n· [画面中央 / 枢纽帐篷] — 一座蓝色顶棚的\"宿舍服务点\"帐篷立于东区学生宿舍楼前，作为整幅场景的中心节点，左右两侧服务由此向外展开。Reference: Image 2。\n· [左侧 / 寄存登记台] — 志愿者在帐篷下为拖着行李箱的新生登记、挂牌，身后一排行李箱整齐码放暂存；标注线点出\"寄存登记台\"。Reference: Image 2。\n· [右下 / 推车搬运队] — 穿红马甲的志愿者推着装满蓝色行李箱的金属推车，沿一条虚线箭头从帐篷向画面右下方行进；标注线点出\"推车搬运队\"。Reference: Image 1 和 Image 4。\n· [画面右端 / 宿舍入口] — 虚线箭头终点处的\"学生宿舍\"入口，新生陆续抵达入住；标注线点出\"宿舍入口\"。Reference: Image 3。",
+      "granularity": "section",
+      "xPct": 72,
+      "yPct": 74,
+      "regions": [],
+      "imageUrl": "images/a220268439ed19f9c23e2fedf65eae20eb50f4a2a653f57fd3c3a0e19f5b7981.jpg"
+    },
+    {
+      "id": "frame-4",
+      "parentId": "frame-1",
+      "activeChildId": null,
+      "prompt": "中国科学技术大学新生入学指南, 校门迎宾",
+      "concept": "校门迎宾",
+      "intent": "了解大学校门的历史背景与迎宾相关的安排",
+      "instruction": "Layout: 中轴对称构图，灰色门楼居中占据画面主体，两侧石狮与门柱对称展开，前景延伸出林荫大道，细线标签从各建筑细部引向四周。\n\nSections:\n- [画面中央 · 门楼主体] — 正面近景的灰色门楼，横额上镌刻金色\"中国科学技术大学\"校名，庄重对称，作为页面视觉核心。Reference: Image 1。\n- [中央上方 · 校名横额] — 门楼顶部的金字校名特写，引出细线标签指向\"校名横额\"。Reference: Image 1。\n- [门楼两侧下方 · 守卫细部] — 对称分列的石狮、门柱与门卫岗亭，各自引出细线标签分别说明\"石狮\"、\"门柱\"、\"门卫岗亭\"。Reference: Image 1。\n- [门楼左右两翼 · 迎新竖幅] — 悬挂于门楼两侧的欢迎新同学竖幅横幅，红色醒目，呼应迎新季氛围。Reference: Image 3。\n- [画面下方前景 · 林荫大道与迎宾] — 从校门向主校园延伸的林荫大道，道旁标出志愿者迎宾引导的位置点。Reference: Image 4。",
+      "granularity": "section",
+      "xPct": 33,
+      "yPct": 12,
+      "regions": [],
+      "imageUrl": "images/76d8b17068da9c3a07e157eabb9be791ac8a558ece337ebf230edadb4352ece5.jpg"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "case-1792488027624-ada4b907",
+  "title": "巴黎旅行",
+  "prompt": "巴黎旅行",
+  "treeVersion": 2,
+  "branchCount": 1,
+  "sourceCaseCount": 1,
+  "frames": [
+    {
+      "id": "frame-1",
+      "parentId": null,
+      "activeChildId": "frame-2",
+      "prompt": "巴黎旅行",
+      "concept": null,
+      "intent": null,
+      "instruction": "本页以埃菲尔铁塔、卢浮宫与塞纳河三大视觉核心构建巴黎旅行的顶层入口，直观呈现城市最具代表性的旅行体验。用户可点击埃菲尔铁塔探索地标建筑与城市天际线，进入卢浮宫了解艺术殿堂与历史馆藏，或选择塞纳河沿岸漫步与游船体验。这三个入口代表了巴黎旅行的核心支柱，确保所有探索路径均处于同一层级且互不重叠。",
+      "granularity": null,
+      "xPct": null,
+      "yPct": null,
+      "regions": [],
+      "imageUrl": "images/6313f211a713e53a3d1658843b2e8adbfe415c1ee5dbe2daaee245a00a72fb4b.jpg"
+    },
+    {
+      "id": "frame-2",
+      "parentId": "frame-1",
+      "activeChildId": "frame-3",
+      "prompt": "巴黎旅行, 埃菲尔铁塔",
+      "concept": "埃菲尔铁塔",
+      "intent": "了解埃菲尔铁塔作为巴黎地标建筑的历史背景与观光信息",
+      "instruction": "Layout: 居中铁塔插画占据主视觉，四周分布引线标注区域，柔和天空背景填充剩余空间。\n\nSections:\n· [中央铁塔主体 / 画面中心] — 绘制铁塔完整钢铁格栅结构与三个游客层级，视觉重心居中，包含标题及两个子标签指示层级与结构。Reference: Image 1 and Image 4.\n· [外围历史数据 / 四周空白区] — 从塔身引出线条连接高度与建造信息，背景保持柔和天空色调，包含标题及两个子标签指示年份与设计师。Reference: Image 2.",
+      "granularity": "item",
+      "xPct": 18,
+      "yPct": 25,
+      "regions": [],
+      "imageUrl": "images/1afcd2fd5100ac121b8b2ef5f75fba99c01e646e82d68901f024358d6fbdc557.jpg"
+    },
+    {
+      "id": "frame-3",
+      "parentId": "frame-2",
+      "activeChildId": null,
+      "prompt": "巴黎旅行, 埃菲尔铁塔, 设计师 古斯塔夫·埃菲尔",
+      "concept": "设计师 古斯塔夫·埃菲尔",
+      "intent": "了解埃菲尔铁塔的设计师古斯塔夫·埃菲尔的生平与设计故事",
+      "instruction": "Layout: 左侧大幅叙事插画占据主要画布，右侧边缘设垂直时间轴条带，无底部页脚。\n\nSections:\n· [左侧主视觉区] — 主层为埃菲尔半身肖像与书桌，次层包含桌上铁塔手稿与背景波尔多桥草图，引线标注关键技术名称。Reference: Image 1, Image 2, and Image 4.\n· [右侧时间轴区] — 主层为垂直时间流结构，次层包含顶部 1887 年动工与底部 1889 年竣工节点，背景融入建造场景。Reference: Image 3.",
+      "granularity": "item",
+      "xPct": 25,
+      "yPct": 34,
+      "regions": [],
+      "imageUrl": "images/c34bdc47ef34992e8850c349f3a6c95a5f80e1cd738f89541f5f09ee5504e2f3.jpg"
+    }
+  ]
+}

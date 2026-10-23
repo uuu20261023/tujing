@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "stats": {
+    "themes": 13,
+    "nodes": 48,
+    "images": 48,
+    "snapshots": 27
+  },
+  "cases": [
+    {
+      "id": "case-1792595774254-40eed023",
+      "title": "上海旅行",
+      "prompt": "上海旅行",
+      "frameCount": 7,
+      "branchCount": 4,
+      "sourceCaseCount": 6,
+      "cover": "images/1542274cc5f6b95c9c8e5c4503573e8dcee8d85cffd80d338620d0e940afb451.jpg",
+      "file": "data/case-1792595774254-40eed023.json"
+    },
+    {
+      "id": "case-1792555305939-a06072fb",
+      "title": "天山",
+      "prompt": "天山",
+      "frameCount": 7,
+      "branchCount": 3,
+      "sourceCaseCount": 1,
+      "cover": "images/99d78203554dce3cdac4fc850e5d74bf81cca8c1656b89a8bb124f1f1733af93.jpg",
+      "file": "data/case-1792555305939-a06072fb.json"
+    },
+    {
+      "id": "case-1792490219851-c328fa9f",
+      "title": "北京旅行",
+      "prompt": "北京旅行",
+      "frameCount": 3,
+      "branchCount": 2,
+      "sourceCaseCount": 2,
+      "cover": "images/7862999a4d2d16d5e65612ccd724d8a318293e65b57d3153524d1cf18d8ff504.jpg",
+      "file": "data/case-1792490219851-c328fa9f.json"
+    },
+    {
+      "id": "case-1792498815182-34f1ce70",
+      "title": "郑州旅游",
+      "prompt": "郑州旅游",
+      "frameCount": 3,
+      "branchCount": 1,
+      "sourceCaseCount": 1,
+      "cover": "images/c0f8a6a54b0d163c6f09cfdc3d4de3ab5c710addf795f24a0acb60b46c4f9546.jpg",
+      "file": "data/case-1792498815182-34f1ce70.json"
+    },
+    {
+      "id": "case-1792495084660-590955ad",
+      "title": "苏州",
+      "prompt": "苏州",
+      "frameCount": 3,
+      "branchCount": 1,
+      "sourceCaseCount": 1,
+      "cover": "images/a88355b917147e0ba0f69d377400951bbbf5509342dae64c51033c16459e24d0.jpg",
+      "file": "data/case-1792495084660-590955ad.json"
+    },
+    {
+      "id": "case-1792488027624-ada4b907",
+      "title": "巴黎旅行",
+      "prompt": "巴黎旅行",
+      "frameCount": 3,
+      "branchCount": 1,
+      "sourceCaseCount": 1,
+      "cover": "images/6313f211a713e53a3d1658843b2e8adbfe415c1ee5dbe2daaee245a00a72fb4b.jpg",
+      "file": "data/case-1792488027624-ada4b907.json"
+    },
+    {
+      "id": "case-1792476237919-91686f34",
+      "title": "合肥旅游",
+      "prompt": "合肥旅游",
+      "frameCount": 2,
+      "branchCount": 1,
+      "sourceCaseCount": 1,
+      "cover": "images/7f791b534714378f30d3384e7ad321d73ec982e019ac033fdab481be00c2a609.jpg",
+      "file": "data/case-1792476237919-91686f34.json"
+    },
+    {
+      "id": "case-1792495830438-5924be77",
+      "title": "318自驾",
+      "prompt": "318自驾",
+      "frameCount": 2,
+      "branchCount": 1,
+      "sourceCaseCount": 2,
+      "cover": "images/d78f830711cd40458455ac33ab10b7112ff87315357456ba77d3ffe4a1422c3e.jpg",
+      "file": "data/case-1792495830438-5924be77.json"
+    },
+    {
+      "id": "case-1792493266144-cc223510",
+      "title": "深圳旅游攻略",
+      "prompt": "深圳旅游攻略",
+      "frameCount": 1,
+      "branchCount": 1,
+      "sourceCaseCount": 3,
+      "cover": "images/195703f3b1500cbd211a228ab84a9414e948722ca5060bb179e3591e21409581.jpg",
+      "file": "data/case-1792493266144-cc223510.json"
+    },
+    {
+      "id": "case-1792489810946-db1f34f6",
+      "title": "中国科学技术大学新生入学指南",
+      "prompt": "中国科学技术大学新生入学指南",
+      "frameCount": 4,
+      "branchCount": 2,
+      "sourceCaseCount": 6,
+      "cover": "images/a31bd56edef56dcdacc702adc01f06f949e18bc869e491cb21c81835f28d38a8.jpg",
+      "file": "data/case-1792489810946-db1f34f6.json"
+    },
+    {
+      "id": "case-1792481285207-87d94202",
+      "title": "中科大高新校区",
+      "prompt": "中科大高新校区",
+      "frameCount": 2,
+      "branchCount": 1,
+      "sourceCaseCount": 1,
+      "cover": "images/75a14571f9d7003d3d609ef0e6256259e64815c5fceae5f8418ae5016171a490.jpg",
+      "file": "data/case-1792481285207-87d94202.json"
+    },
+    {
+      "id": "case-1792425904301-2b70256c",
+      "title": "中国科学技术大学软件学院",
+      "prompt": "中国科学技术大学软件学院",
+      "frameCount": 2,
+      "branchCount": 1,
+      "sourceCaseCount": 1,
+      "cover": "images/0a13b380a7e9c21e8532a635d10b02c0da683d9735f9acc59cc9f3bad24e944c.jpg",
+      "file": "data/case-1792425904301-2b70256c.json"
+    },
+    {
+      "id": "case-1792576719361-45e4defd",
+      "title": "中国A股市场分析",
+      "prompt": "中国A股市场分析",
+      "frameCount": 9,
+      "branchCount": 4,
+      "sourceCaseCount": 1,
+      "cover": "images/927b139afd5984472ad45f828418a262dc3da4bc70b937386bbf23495e4d4ca3.jpg",
+      "file": "data/case-1792576719361-45e4defd.json"
+    }
+  ]
+}
